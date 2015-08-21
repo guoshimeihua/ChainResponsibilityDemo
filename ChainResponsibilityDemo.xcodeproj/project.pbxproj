@@ -14,6 +14,14 @@
 		324EB2F31B86DC5900915E8A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 324EB2F21B86DC5900915E8A /* Images.xcassets */; };
 		324EB2F61B86DC5900915E8A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 324EB2F41B86DC5900915E8A /* LaunchScreen.xib */; };
 		324EB3021B86DC5900915E8A /* ChainResponsibilityDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EB3011B86DC5900915E8A /* ChainResponsibilityDemoTests.m */; };
+		324EB30D1B86F0F100915E8A /* AttackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EB30C1B86F0F100915E8A /* AttackHandler.m */; };
+		324EB3121B86FA2000915E8A /* Attack.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EB3111B86FA2000915E8A /* Attack.m */; };
+		324EB3181B86FAA600915E8A /* WaterAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EB3171B86FAA600915E8A /* WaterAttack.m */; };
+		324EB31B1B86FAC000915E8A /* FireAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EB31A1B86FAC000915E8A /* FireAttack.m */; };
+		324EB31E1B86FAD600915E8A /* SoliderAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EB31D1B86FAD600915E8A /* SoliderAttack.m */; };
+		324EB3211B86FC2600915E8A /* WaterAttackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EB3201B86FC2600915E8A /* WaterAttackHandler.m */; };
+		324EB3241B86FC3900915E8A /* FireAttackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EB3231B86FC3900915E8A /* FireAttackHandler.m */; };
+		324EB32A1B86FEFF00915E8A /* Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = 324EB3291B86FEFF00915E8A /* Avatar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,22 @@
 		324EB2FB1B86DC5900915E8A /* ChainResponsibilityDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChainResponsibilityDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		324EB3001B86DC5900915E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		324EB3011B86DC5900915E8A /* ChainResponsibilityDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainResponsibilityDemoTests.m; sourceTree = "<group>"; };
+		324EB30B1B86F0F100915E8A /* AttackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttackHandler.h; sourceTree = "<group>"; };
+		324EB30C1B86F0F100915E8A /* AttackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttackHandler.m; sourceTree = "<group>"; };
+		324EB3101B86FA2000915E8A /* Attack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attack.h; sourceTree = "<group>"; };
+		324EB3111B86FA2000915E8A /* Attack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attack.m; sourceTree = "<group>"; };
+		324EB3161B86FAA600915E8A /* WaterAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterAttack.h; sourceTree = "<group>"; };
+		324EB3171B86FAA600915E8A /* WaterAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterAttack.m; sourceTree = "<group>"; };
+		324EB3191B86FAC000915E8A /* FireAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireAttack.h; sourceTree = "<group>"; };
+		324EB31A1B86FAC000915E8A /* FireAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireAttack.m; sourceTree = "<group>"; };
+		324EB31C1B86FAD600915E8A /* SoliderAttack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoliderAttack.h; sourceTree = "<group>"; };
+		324EB31D1B86FAD600915E8A /* SoliderAttack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoliderAttack.m; sourceTree = "<group>"; };
+		324EB31F1B86FC2600915E8A /* WaterAttackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterAttackHandler.h; sourceTree = "<group>"; };
+		324EB3201B86FC2600915E8A /* WaterAttackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterAttackHandler.m; sourceTree = "<group>"; };
+		324EB3221B86FC3900915E8A /* FireAttackHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireAttackHandler.h; sourceTree = "<group>"; };
+		324EB3231B86FC3900915E8A /* FireAttackHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireAttackHandler.m; sourceTree = "<group>"; };
+		324EB3281B86FEFF00915E8A /* Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
+		324EB3291B86FEFF00915E8A /* Avatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Avatar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,8 @@
 		324EB2E41B86DC5900915E8A /* ChainResponsibilityDemo */ = {
 			isa = PBXGroup;
 			children = (
+				324EB30E1B86F9FC00915E8A /* Attacks */,
+				324EB30F1B86FA0600915E8A /* AttackHandlers */,
 				324EB2E91B86DC5900915E8A /* AppDelegate.h */,
 				324EB2EA1B86DC5900915E8A /* AppDelegate.m */,
 				324EB2EC1B86DC5900915E8A /* ViewController.h */,
@@ -117,6 +143,36 @@
 				324EB3001B86DC5900915E8A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		324EB30E1B86F9FC00915E8A /* Attacks */ = {
+			isa = PBXGroup;
+			children = (
+				324EB3101B86FA2000915E8A /* Attack.h */,
+				324EB3111B86FA2000915E8A /* Attack.m */,
+				324EB3161B86FAA600915E8A /* WaterAttack.h */,
+				324EB3171B86FAA600915E8A /* WaterAttack.m */,
+				324EB3191B86FAC000915E8A /* FireAttack.h */,
+				324EB31A1B86FAC000915E8A /* FireAttack.m */,
+				324EB31C1B86FAD600915E8A /* SoliderAttack.h */,
+				324EB31D1B86FAD600915E8A /* SoliderAttack.m */,
+			);
+			name = Attacks;
+			sourceTree = "<group>";
+		};
+		324EB30F1B86FA0600915E8A /* AttackHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				324EB30B1B86F0F100915E8A /* AttackHandler.h */,
+				324EB30C1B86F0F100915E8A /* AttackHandler.m */,
+				324EB31F1B86FC2600915E8A /* WaterAttackHandler.h */,
+				324EB3201B86FC2600915E8A /* WaterAttackHandler.m */,
+				324EB3221B86FC3900915E8A /* FireAttackHandler.h */,
+				324EB3231B86FC3900915E8A /* FireAttackHandler.m */,
+				324EB3281B86FEFF00915E8A /* Avatar.h */,
+				324EB3291B86FEFF00915E8A /* Avatar.m */,
+			);
+			name = AttackHandlers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324EB30D1B86F0F100915E8A /* AttackHandler.m in Sources */,
+				324EB3181B86FAA600915E8A /* WaterAttack.m in Sources */,
+				324EB3211B86FC2600915E8A /* WaterAttackHandler.m in Sources */,
+				324EB3121B86FA2000915E8A /* Attack.m in Sources */,
+				324EB31B1B86FAC000915E8A /* FireAttack.m in Sources */,
+				324EB32A1B86FEFF00915E8A /* Avatar.m in Sources */,
+				324EB31E1B86FAD600915E8A /* SoliderAttack.m in Sources */,
+				324EB3241B86FC3900915E8A /* FireAttackHandler.m in Sources */,
 				324EB2EE1B86DC5900915E8A /* ViewController.m in Sources */,
 				324EB2EB1B86DC5900915E8A /* AppDelegate.m in Sources */,
 				324EB2E81B86DC5900915E8A /* main.m in Sources */,
